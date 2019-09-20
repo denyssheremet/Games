@@ -46,7 +46,6 @@ def InitiateLines():
         for i in range(len(lines[NN])):
             for a in range(NODEAMOUNTS[i]*NODEAMOUNTS[i+1]):
                 rand = random.uniform(-100,100)
-#                rand = random.randint(-10,10)
                 lines[NN,i,a] = rand
 
 
