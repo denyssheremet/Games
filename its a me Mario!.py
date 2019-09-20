@@ -9,7 +9,7 @@
 import pygame as pg
 import numpy as np
 import random
-from Map_Flat_1_Mario_Jump import MakeLevel
+from Map_Jump_2_Mario_Jump import MakeLevel
 from NN_01 import MakeNeuralNetwork
 
 pg.init()
